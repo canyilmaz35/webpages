@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Can Yılmaz</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+<section class="main">
+
+  <div class="background">
+    <div class="background-filter">
+    </div>
+  </div>
+
+  <div class="nav">
+    <h1 class="bounceIn">CAN YILMAZ</h1>
+    <a class="btn1 bounceIn" href="#">ANA SAYFA</a>
+    <a class="btn2 bounceIn" href="#">HAKKIMDA</a>
+    <a class="btn3 bounceIn" href="#">GALERI</a>
+    <a class="btn4 bounceIn" href="#">ILETISIM</a>
+    <button class="focus bounceIn"><a href="#">FOCUS</a></button>
+  </div>
+
+  <div class="global-area">
+    <div class="anasayfa">
+      <h2 class="h21 bounceIn">MERHABA</h2>
+      <h2 class="h22 bounceIn">WEB</h2>
+      <h2 class="h23 bounceIn">SAYFAMA</h2>
+      <h2 class="h24">HOS</h2>
+      <h2 class="h25 bounceIn">GELDINIZ</h2>
+      <h2 class="h26">canyılmaz</h2>
+      <h3 class="bounceIn">MERHABA!</h3>
+      <p class="bounceIn">Oncelikle web sayfama hosgeldiniz!<br/>Adım Can, Youtube-Facebook<br/>gibi sosyal medya hesaplarımdan<br/>web programcılıgı ve oyun gelistiriciligi<br/>üzerine videolar çekiyorum...</p>
+    </div>
+    <div class="hakkimda">
+      <h1 class="bounceIn">HAKKIMDA</h1>
+      <p class="bounceIn">2004 tarihinde Izmir'de dogdum. Kısa bir süre Izmir'de yasadıktan sonra<br/>Antalya'ya tasındık. Ilk ve orta egitim hayatımı Varsak Sakarya'da gecirdikten<br/>sonra lise olarak Kepez Anadolu'ya yerlestim. 3 yıl gibi bir süredir web<br/>programcılıgı üzerine calısıyorum. Ana hedefim olan oyun gelistiriciligi için<br/>Unreal Engine 4 egitimleri almaktayım. Ögrendiklerimi Youtube, Facebook gibi<br/>ortamlarda paylasıyorum. Aynı zamanda Bionluk'ta Freelancer'ım...</p>
+    </div>
+    <div class="galeri">
+
+    </div>
+    <div class="iletisim">
+      <h1 class="bounceIn">ILETISIM</h1>
+      <p class="bounceIn">Email: ycan3507@gmail.com<br/>
+                          Telefon: (sadece özel olarak)<br/>
+                          Youtube: Can Yılmaz<br/>
+                          Facebook: Can Yılmaz<br/>
+                          Codepen: @canyilmaz35<br/>
+                          Bionluk: canyilmaz</p>
+    </div>
+  </div>
+
+</section>
+
+<script type="text/javascript">
+
+$(function(){
+  $(".btn1").click(function(){
+    $(".anasayfa .h21").fadeIn(500)
+    $(".anasayfa .h22").fadeIn(500)
+    $(".anasayfa .h23").fadeIn(500)
+    $(".anasayfa .h24").fadeIn(500)
+    $(".anasayfa .h25").fadeIn(500)
+    $(".anasayfa .h26").fadeIn(500)
+    $(".anasayfa h3").fadeIn(500)
+    $(".anasayfa p").fadeIn(500)
+    $(".hakkimda h1").fadeOut(500)
+    $(".hakkimda p").fadeOut(500)
+    $(".iletisim h1").fadeOut(500)
+    $(".iletisim p").fadeOut(500)
+  });
+});
+
+$(function(){
+  $(".btn2").click(function(){
+    $(".anasayfa .h21").fadeOut(500)
+    $(".anasayfa .h22").fadeOut(500)
+    $(".anasayfa .h23").fadeOut(500)
+    $(".anasayfa .h24").fadeOut(500)
+    $(".anasayfa .h25").fadeOut(500)
+    $(".anasayfa .h26").fadeOut(500)
+    $(".anasayfa h3").fadeOut(500)
+    $(".anasayfa p").fadeOut(500)
+    $(".hakkimda h1").fadeIn(500)
+    $(".hakkimda p").fadeIn(500)
+    $(".iletisim h1").fadeOut(500)
+    $(".iletisim p").fadeOut(500)
+  });
+});
+
+$(function(){
+  $(".btn3").click(function(){
+
+  });
+});
+
+$(function(){
+  $(".btn4").click(function(){
+    $(".anasayfa .h21").fadeOut(500)
+    $(".anasayfa .h22").fadeOut(500)
+    $(".anasayfa .h23").fadeOut(500)
+    $(".anasayfa .h24").fadeOut(500)
+    $(".anasayfa .h25").fadeOut(500)
+    $(".anasayfa .h26").fadeOut(500)
+    $(".anasayfa h3").fadeOut(500)
+    $(".anasayfa p").fadeOut(500)
+    $(".hakkimda h1").fadeOut(500)
+    $(".hakkimda p").fadeOut(500)
+    $(".iletisim h1").fadeIn(500)
+    $(".iletisim p").fadeIn(500)
+  });
+});
+
+</script>
+
+</body>
+</html>
